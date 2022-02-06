@@ -1,0 +1,896 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d-flex{
+    display: flex;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header{
+    padding: 15px 0;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+.header .nav{
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.header .nav .logo{
+    width:15% ;
+}
+.header .nav .logo img{
+    width: 100%;
+}
+.nav ul{
+list-style: none;
+align-items: center;
+}
+.header .nav ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+
+.header .nav ul li i{
+    color: #fff;
+    transform: rotate(250deg);
+}
+.header .nav ul li .buy{
+    padding: 16px 40px;
+    border: 1px solid grey;
+    border-radius: 40px;
+    margin-left: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    transition: 0.3s ease-in;
+}
+.header .nav ul li .buy:hover{
+    background-color: #FD4766;
+    border:2px solid #FD4766;
+}
+
+
+
+
+
+
+
+.design{
+    background-color: rgb(0, 0, 0);
+    height: 110vh;
+    position: relative;
+}
+.design h1{
+    font-size: 100px;
+    line-height: 112px;
+    background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #FD4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-weight: 900;
+    position: relative;
+
+    z-index: 100;
+    padding-top: 10%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.design .overlay{
+    background-image: url(http://rainbowit.net/themes/imroz/wp-content/uploads/2021/05/bg-image-1-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+
+}
+
+
+
+
+.design .awward{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    width: 88%;
+    margin: auto !important;
+    z-index: 1;
+
+}
+.design .awward .box{
+ width: 33%;
+    color: white;
+    text-align: center !important;
+    padding: 8px;
+    
+}
+.design .awward h4{
+    color: white;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 45px;
+    letter-spacing: 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.design .awward p{
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+
+
+
+.about{
+    width: 86%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    
+}
+.about .photo{
+    width: 40%;
+    height: 78vh;
+    /* border: 2px solid red; */
+    margin: 30px 0px;
+}
+.about .photo img{
+    width: 100%;
+    height: 100%;
+}
+.about .icon-text{
+    width: 70%;
+    height: 80vh;
+    /* border: 2px solid green; */
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.about .icon-text .icon{
+    width: 60px;
+    height: 60px;
+    margin: 40px 30px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    background-color: #F5476E;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about .icon-text .icon svg{
+    width: 30px;
+    height: 30px;
+}
+.about .icon-text .text{
+    /* border: 2px solid blue; */
+    width: 95%;
+    height: 55vh;
+    margin-top: -40px;
+    margin-left: 20px;
+
+}
+.about .icon-text .text h1{
+    width: 85%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    opacity: 85%;
+    line-height: 57px;
+    letter-spacing: 1px;
+
+}
+.about .icon-text .text p{
+    width: 90%;
+    padding-top: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(78, 77, 77);
+    line-height: 30px;
+}
+.about .icon-text .rainbow{
+    /* border: 2px solid green; */
+    width: 20%;
+    height: 40px;
+
+}
+.about .icon-text .rainbow a{
+    margin-left: 25px;  
+    background: linear-gradient(
+    120deg
+    , #1C99FE 20.69%, #7644FF 50.19%, #FD4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+  
+
+}
+.about .icon-text .rainbow .btn{
+    /* border: 2px solid green; */
+    height: 30px;
+    width: 15rem;
+    margin-top: -20px;
+    margin-left: 20px;
+    z-index: 1;
+    transition: 200ms ease-in;
+}
+.about .icon-text .rainbow .btn:hover{
+    width: 32rem;
+}
+.about .icon-text .rainbow .block{
+    background: linear-gradient(
+        120deg
+        , #1C99FE 20.69%, #7644FF 50.19%, #FD4766 79.69%);
+    width: 25%;
+    height: 3px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+.services{
+    /* border: 2px solid green; */
+    width: 80%;
+    margin: auto;
+    height: 130vh;
+    text-align: center;
+}
+.services .rainbow{
+    background: linear-gradient(
+        120deg
+        , #1C99FE 20.69%, #7644FF 50.19%, #FD4766 79.69%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.services h1{
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    opacity: 90%;
+}
+.services .text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    width: 48%;
+    margin: auto;
+    margin-top: 10px;
+    opacity: 82%;
+    font-weight: 400;
+}
+
+.services .boxes{
+    /* border:  2px solid red; */
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(250, 250, 250);
+}
+/*  */
+.services .boxes .biznes{
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    background-color: white;
+    transition: 150ms ease-in;
+}
+.services .boxes .biznes svg{
+    /* border: 2px solid green;  */
+    margin-top: 35px;
+    margin-left: 25px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    color: rgb(245, 71, 110);
+}
+.services .boxes .biznes a{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: start;
+}
+.services .boxes .biznes a h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    opacity: 90%;
+    padding-top: 15px;
+}
+.services .boxes .biznes a p{
+    font-family: 'Poppins', sans-serif;
+    width: 85%;
+    padding-top: 10px;
+    opacity: 70%;
+    font-weight: 500;
+}
+.services .boxes .biznes:hover{
+    box-shadow: 2px 2px 2px grey;
+    padding-top: 2px;
+}
+/*  */
+.services .boxes .website{
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    background-color: white;
+    transition: 150ms ease-in;
+
+}
+.services .boxes .website svg{
+    /* border: 2px solid green; */
+    margin-top: 35px;
+    margin-left: 25px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    color: rgb(245, 71, 110);
+}
+.services .boxes .website a{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: start;
+}
+.services .boxes .website a h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    opacity: 90%;
+    padding-top: 15px;
+}
+.services .boxes .website a p{
+    font-family: 'Poppins', sans-serif;
+    width: 85%;
+    padding-top: 10px;
+    opacity: 70%;
+    font-weight: 500;
+}
+.services .boxes .website:hover{
+    box-shadow: 2px 2px 2px grey;
+    padding-top: 2px;
+}
+/* ============= */
+.services .boxes .marketing{
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    background-color: white;
+    transition: 150ms ease-in;
+
+}
+.services .boxes .marketing svg{
+    /* border: 2px solid green; */
+    margin-top: 35px;
+    margin-left: 25px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    color: rgb(245, 71, 110);
+}
+.services .boxes .marketing a{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: start;
+}
+.services .boxes .marketing a h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    opacity: 90%;
+    padding-top: 15px;
+}
+.services .boxes .marketing a p{
+    font-family: 'Poppins', sans-serif;
+    width: 85%;
+    padding-top: 10px;
+    opacity: 70%;
+    font-weight: 500;
+}
+.services .boxes .marketing:hover{
+    box-shadow: 2px 2px 2px grey;
+    padding-top: 2px;
+}
+/* =========== */
+.services .boxes .mobile{
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    background-color: white;
+    transition: 150ms ease-in;
+
+}
+.services .boxes .mobile svg{
+    /* border: 2px solid green; */
+    margin-top: 35px;
+    margin-left: 25px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    color: rgb(245, 71, 110);
+}
+.services .boxes .mobile a{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: start;
+}
+.services .boxes .mobile a h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    opacity: 90%;
+    padding-top: 15px;
+}
+.services .boxes .mobile a p{
+    font-family: 'Poppins', sans-serif;
+    width: 85%;
+    padding-top: 10px;
+    opacity: 70%;
+    font-weight: 500;
+}
+.services .boxes .mobile:hover{
+    box-shadow: 2px 2px 2px grey;
+    padding-top: 2px;
+}
+
+
+
+
+
+
+.work{
+    width: 90%;
+    margin: auto;
+    height: 110vh;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.work p{
+    background: linear-gradient(
+        120deg
+        , #1C99FE 20.69%, #7644FF 50.19%, #FD4766 79.69%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.work h1{
+    font-size: 50px;
+    font-family: 'poppins',sans-serif;
+    opacity: 90%;
+}
+.work span{
+    font-family: 'poppins',sans-serif;
+    opacity: 80%;
+    width: 45%;
+    display: inline-block;
+    font-size: 18px;
+}
+.work .boxes{
+    /* border: 1px solid rgb(68, 0, 255); */
+    width: 100%;
+    height: 75vh;
+    display: flex;
+}
+/* ======== */
+.work .boxes .game{
+    /* border: 1px solid rgb(0, 255, 64); */
+    width: 30%;
+    height: 72vh; 
+    margin: 50px;
+    background-image: url(/photo/pc1--390x532.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    
+}
+.work .boxes .game:hover{
+    transform: scale(1.1,1.1);
+}
+.work .boxes .game .overlay:hover{
+    opacity: 100%;
+}
+.work .boxes .game .overlay{
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(245, 71, 110));
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    transition: 150ms ease;
+}
+.work .boxes .game .black{
+    background-image: radial-gradient(rgba(0, 0, 0, 0.459)70%,black);
+    width: 100%;
+    height: 100%;
+}
+.work .boxes .game span{
+    position: absolute;
+    color: rgba(214, 214, 214, 0.795);
+    display: flex;
+    bottom: 160px;
+    margin-left: 40px;
+    z-index: 1;
+
+}
+.work .boxes .game h1{
+    position: absolute;
+    position: absolute;
+    color: #fff;
+    display: flex;
+    bottom: 100px;
+    margin-left: 40px;
+    font-size: 30px;
+    z-index: 1;
+}
+.work .boxes .game a{
+    width: 110px;
+    height: 40px;
+    border-radius: 7px;
+    text-align: center;
+    padding-top:10px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgba(233, 230, 230, 0.726);
+    bottom:50px;
+    left: 50px;
+    z-index: 1;
+    transition: 150ms ease-in;
+}
+.work .boxes .game a:hover{
+    background-color: rgb(245, 71, 110);
+}
+/* ======= */
+.work .boxes .report{
+    /* border: 1px solid rgb(0, 255, 64); */
+    width: 30%;
+    height: 72vh; 
+    margin: 50px 7px;
+    background-image: url(/photo/pc2-390x532.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+    transition: 150ms ease-in-out;
+
+}
+.work .boxes .report:hover{
+    transform: scale(1.1,1.1);
+}
+.work .boxes .report .overlay:hover{
+    opacity: 100%;
+}
+.work .boxes .report .overlay{
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(245, 71, 110));
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    transition: 150ms ease;
+}
+.work .boxes .report .black{
+    background-image: radial-gradient(rgba(0, 0, 0, 0.459)70%,black);
+    width: 100%;
+    height: 100%;
+}
+.work .boxes .report span{
+    position: absolute;
+    color: rgba(214, 214, 214, 0.795);
+    display: flex;
+    bottom: 160px;
+    margin-left: 40px;
+    z-index: 1;
+
+}
+.work .boxes .report h1{
+    position: absolute;
+    position: absolute;
+    color: #fff;
+    display: flex;
+    bottom: 100px;
+    margin-left: 40px;
+    font-size: 30px;
+    z-index: 1;
+}
+.work .boxes .report a{
+    width: 110px;
+    height: 40px;
+    border-radius: 7px;
+    text-align: center;
+    padding-top:10px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgba(233, 230, 230, 0.726);
+    bottom:50px;
+    left: 50px;
+    z-index: 1;
+    transition: 150ms ease-in;
+}
+.work .boxes .report a:hover{
+    background-color: rgb(245, 71, 110);
+}
+
+
+
+.work .boxes .seo{
+    /* border: 1px solid rgb(0, 255, 64); */
+    width: 30%;
+    height: 72vh; 
+    margin: 50px 7px;
+    background-image: url(/photo/pc3-03-390x532.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+
+}
+.work .boxes .seo .overlay:hover{
+    opacity: 100%;
+}
+.work .boxes .seo .overlay{
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(245, 71, 110));
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    transition: 150ms ease;
+}
+.work .boxes .seo .black{
+    background-image: radial-gradient(rgba(0, 0, 0, 0.459)70%,black);
+    width: 100%;
+    height: 100%;
+}
+.work .boxes .seo span{
+    position: absolute;
+    color: rgba(214, 214, 214, 0.795);
+    display: flex;
+    bottom: 160px;
+    margin-left: 40px;
+    z-index: 1;
+
+}
+.work .boxes .seo h1{
+    position: absolute;
+    position: absolute;
+    color: #fff;
+    display: flex;
+    bottom: 100px;
+    margin-left: 40px;
+    font-size: 30px;
+    z-index: 1;
+}
+.work .boxes .seo a{
+    width: 110px;
+    height: 40px;
+    border-radius: 7px;
+    text-align: center;
+    padding-top:10px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgba(233, 230, 230, 0.726);
+    bottom:50px;
+    left: 50px;
+    z-index: 1;
+    transition: 150ms ease-in;
+}
+.work .boxes .seo a:hover{
+    background-color: rgb(245, 71, 110);
+}
+
+
+
+
+.grows{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    height: 80vh;
+    margin-top: 50px;
+    text-align: center;
+}
+.grows p{
+    background: linear-gradient(
+        120deg
+        , #1C99FE 20.69%, #7644FF 50.19%, #FD4766 79.69%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.grows h1{
+    font-family: 'poppins', sans-serif;
+    font-size: 50px;
+    opacity: 85%;
+}
+.grows span{
+    font-family: 'poppins', sans-serif;
+    opacity: 80%;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.grows .boxes{
+    /* border: 1px solid green; */
+    margin-top: 5rem;
+    height: 40vh;
+    display: flex;
+
+    
+
+}
+.grows .boxes .customer{
+    /* border: 1px solid red; */
+    width: 22%;
+    height: 32vh;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.grows .boxes .customer svg{
+    margin-top: 35px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    color: rgb(245, 71, 110); 
+    /* border: 1px solid green; */
+
+}
+.grows .boxes .customer h1{
+    /* border: 1px solid red; */
+    height: 30%;
+    display: inline-block
+}
+.grows .boxes .customer .icon{
+    display: flex;
+    justify-content: center;
+}
+.grows .boxes .day{
+    /* border: 1px solid red; */
+    width: 22%;
+    height: 32vh;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.grows .boxes .day svg{
+    margin-top: 35px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    color: rgb(245, 71, 110); 
+    /* border: 1px solid green; */
+
+}
+.grows .boxes .day h1{
+    /* border: 1px solid red; */
+    height: 30%;
+    display: inline-block
+}
+.grows .boxes .day .icon{
+    display: flex;
+    justify-content: center;
+}
+.grows .boxes .project{
+    /* border: 1px solid red; */
+    width: 22%;
+    height: 32vh;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.grows .boxes .project svg{
+    margin-top: 35px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    color: rgb(245, 71, 110); 
+    /* border: 1px solid green; */
+
+}
+.grows .boxes .project h1{
+    /* border: 1px solid red; */
+    height: 30%;
+    display: inline-block
+}
+.grows .boxes .project .icon{
+    display: flex;
+    justify-content: center;
+}
+.grows .boxes .win{
+    /* border: 1px solid red; */
+    width: 22%;
+    height: 32vh;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.grows .boxes .win svg{
+    margin-top: 35px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    color: rgb(245, 71, 110); 
+    /* border: 1px solid green; */
+
+}
+.grows .boxes .win h1{
+    /* border: 1px solid red; */
+    height: 30%;
+    display: inline-block
+}
+.grows .boxes .win .icon{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
